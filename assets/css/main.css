@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
 
+/* CSV 
+12263a,06bcc1,db5461,fcbf49,f4d1ae
+
+/* Array 
+["12263a","06bcc1","db5461","fcbf49","f4d1ae"]
+
+/* Object
+{"Prussian Blue":"12263a","Maximum Blue Green":"06bcc1","Indian Red":"db5461","Maximum Yellow Red":"fcbf49","Light Orange":"f4d1ae"}
+*/
+
 /*
 	Astral by HTML5 UP
 	html5up.net | @ajlkn
@@ -1306,7 +1316,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(0deg, #12263a, #06bcc1);
+		/* url("images/bg.jpg")  */
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1583,6 +1594,10 @@ input, select, textarea {
 
 /* Button */
 
+	button, button.button{
+		margin: 0.7em 0 0 0;
+	}
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1594,12 +1609,13 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
+		background-color: #12263a;
 		color: #ffffff;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
+		font-weight: bold;
 	}
 
 		input[type="button"]:hover,
@@ -2165,6 +2181,7 @@ input, select, textarea {
 		#footer .copyright {
 			list-style: none;
 			padding-left: 0;
+			font-size: 0
 		}
 
 			#footer .copyright li {
