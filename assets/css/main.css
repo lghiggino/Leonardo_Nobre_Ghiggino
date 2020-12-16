@@ -1684,6 +1684,10 @@ input, select, textarea {
 			padding: 0.5em 1.25em 0.5em 1.25em;
 		}
 
+		button.is-alternative{
+			background-color: #db5461 ;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			input[type="button"],
@@ -1902,7 +1906,7 @@ input, select, textarea {
 		}
 
 		.special-nav-icon:hover{
-			color: #db5461;
+			color: #06bcc1;
 		}
 
 /* Wrapper */
