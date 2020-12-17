@@ -1,4 +1,4 @@
-let jobs = [ "Front-end developer", "Full-Stack Software Engineer", "Growth hacker", "Video editing enthusiast"]
+let jobs = [  "Full-Stack Software Engineer", "Front-end developer", "Growth hacker", "Video editing enthusiast"]
 
 const multijob = document.querySelector("#multijob");
 

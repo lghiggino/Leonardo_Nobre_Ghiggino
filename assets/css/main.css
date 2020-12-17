@@ -280,7 +280,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 1.25em 0 0 1.25em;
+				padding: 1.75em 0 0 1.25em;
 			}
 
 			.row.gtr-uniform {
@@ -523,7 +523,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 1.75em 0 0 1.25em;
 					}
 
 					.row.gtr-uniform {
@@ -768,7 +768,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 1.75em 0 0 1.25em;
 					}
 
 					.row.gtr-uniform {
@@ -1013,7 +1013,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 1.75em 0 0 1.25em;
 					}
 
 					.row.gtr-uniform {
@@ -1258,7 +1258,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 1.25em 0 0 1.25em;
+						padding: 1.75em 0 0 1.25em;
 					}
 
 					.row.gtr-uniform {
@@ -1393,6 +1393,18 @@ input, select, textarea {
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
+	}
+
+	h6 {
+		font-size: 0.65em;
+		line-height: 125%;
+		letter-spacing: -0.015em;
+		text-align: justify;
+		margin: 1.25em 0 0 0;
+	}
+
+	h6 > strong{
+		font-weight: bold;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1893,7 +1905,7 @@ input, select, textarea {
 
 		/* Social NAV */
 
-		nav#social-nav{
+		section#social-nav{
 			display: flex;
 			flex-direction: row wrap;
 			justify-content: space-evenly;
