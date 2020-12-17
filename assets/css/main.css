@@ -8,7 +8,7 @@
 ["12263a","06bcc1","db5461","fcbf49","f4d1ae"]
 
 /* Object
-{"Prussian Blue":"12263a","Maximum Blue Green":"06bcc1","Indian Red":"db5461","Maximum Yellow Red":"fcbf49","Light Orange":"f4d1ae"}
+{"Prussian Blue":"12263a","Maximum Blue Green":"06bcc1","Indian Red":"db5461","Maximum Yellow Red":"fcbf49","Light Orange":"f4d1ae", "Forest Green":"1E3F20"}
 */
 
 /*
@@ -80,6 +80,11 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+form input::placeholder, form textarea::placeholder{
+	color:#1E3F20;
+	opacity: 1;
 }
 
 /* Row */
@@ -1405,6 +1410,7 @@ input, select, textarea {
 
 	h6 > strong{
 		font-weight: bold;
+		color: #1E3F20;
 	}
 
 	@media screen and (max-width: 736px) {
